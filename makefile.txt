@@ -1,0 +1,4 @@
+finale:
+	nvcc -gencode arch=compute_75,code=sm_75 scan_strcmp.cu -o foo 
+clean:
+	rm -f foo
